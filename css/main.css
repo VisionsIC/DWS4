@@ -1,0 +1,433 @@
+/* CSS Document */
+/**********************Global BODY CSS*****************************/
+
+body {
+	margin: auto;
+	max-width: 1024px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	background-color: hsla(85,42%,86%,1.00);
+}
+
+div {
+	margin-top: 0%;
+	background-color:hsla(0,0%,100%,1.00)	
+}
+
+#page_container {
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+	background-color: hsla(0,0%,100%,1.00);
+	overflow: auto;
+}
+/**********************Header & Navigation CSS*****************************/
+header {
+	margin-top: 0px;
+	width: 100%;
+}
+
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+#head_nav {
+	margin-top: 0px;
+	background: url(file:///10.8.x/Users/aaronwilson/DWS3/images/football_bg.png) no-repeat;
+	background-size: 100%;  
+}
+
+/* H1 styles to make page Title Header effects and transparency*/
+h1 {
+	margin-top: 0px;
+	margin-bottom: 2%;
+	padding-bottom: 2px;
+	width: 100%;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-shadow: 2px 2px hsla(0,0%,0%,0.83);
+	position: relative;
+	text-align: center;
+	background-color: hsla(0,100%,99%,0.80);
+	border: 1px solid #000000;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.8em;
+	color: hsla(22,46%,35%,1.00);
+}
+
+#h1_div {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 45%;
+	max-height: 37px;
+	border: 1px solid #000;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+/* Nav styles to make all navigation element effects and functions*/
+nav {
+    width: auto;
+	margin-top: 2%;
+	margin-bottom: 4%;
+    background: hsla(0,0%,100%,0.80);
+    height: 30px;
+    border: 1px solid #000;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
+nav ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: .9em;
+	
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 12.5%; /* fallback for non-calc() browsers */
+    width: calc(100% / 8);
+    border-left: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: .9em;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
+nav ul li:first-child {
+    border-left: none;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 0px 10px 0px;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+nav ul li a:hover {
+	display: block;
+	text-decoration: none;
+	color: hsla(0,0%,100%,1.00);
+	background-color: hsla(15,41%,16%,0.5);
+	font: .9em "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+#last_box {
+	border-right: 1px solid #000000;
+}
+/******************************** End HEADER section *****************************************************************/
+
+/********************************Start ASIDE section******************************************************************/
+
+aside {
+	margin: 0px;
+	padding: 0px;
+	background-size: 100%;
+	/* Gradient Styles */
+	background: #c9de96;
+	/* Old browsers */
+	background: -moz-linear-gradient(top,  hsla(78,52%,73%,1) 0%, hsla(95,34%,57%,1) 44%, hsla(117,42%,36%,1) 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,hsla(78,52%,73%,1)), 			color-stop(44%,hsla(95,34%,57%,1)), color-stop(100%,hsla(117,42%,36%,1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); 
+	/* IE6-9 */	
+	overflow: hidden;
+}
+
+#aside_div {
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: right;
+	width: 20%;
+	height: auto;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right: 1px solid #000;
+	clear: right;
+	overflow: hidden;
+}
+/* Image ID styles to make all images on page one standard size, and thin black border*/
+#ig1_img, #ig2_img, #ig3_img, #ig4_img, #ig5_img {
+	width: 150px;
+	height: 95px;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+.aside_figcap {
+	width: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: .75em;
+}
+aside figure {
+	width: 100%;
+	background-color:hsla(0,0%,100%,0.6);
+	margin-left: 15%;
+	padding: 5% 5% 5% 5%;
+	border: 1px solid #000;
+	border-radius: 8%;
+	overflow: auto;
+}
+
+aside h2 {
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4% 12% 4% 12%;
+}
+
+ h2, h3 {
+	margin-top: auto;
+	margin-right: 2%;
+	margin-bottom: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-bottom-right-radius: 15px solid #000;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: hsla(22,45%,35%,1.00);
+	text-shadow: 2px 2px hsla(75,93%,89%,1.00);
+	background-color: hsla(93,35%,84%,1.00);
+	position: relative;
+	text-align: left;
+	overflow: auto;
+}
+
+.icon {
+	background-image: url(../images/Football_Ball.png);
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+
+.main_fig {
+	display: table;
+	padding-left: 2%;
+	padding-top: 0%;
+	max-width: 360px;
+	max-height: 220px;
+}
+
+footer {
+	background-color: hsla(107,33%,45%,1.00);
+	color: hsla(0,0%,98%,1.00);
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#intro_img, #peewee_img, #friday_img, #pros_img {
+	display: block;
+    max-width: 100%;
+	padding-top: 0%;
+	border: 1px solid #000;
+	overflow: auto;
+}
+
+.main_figcap {
+	max-width: 360px;
+	display: table-caption;
+    caption-side: bottom;
+	padding-top: 2%;
+	padding-left: 5%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	
+}
+
+figure {
+	float: left;
+	margin-left: 0;
+	margin-right: 2%;
+	padding-left: 2%;
+	max-width: 360px;
+	overflow: auto;
+}
+
+#intro_art, #peewee_art, #friday_art, #pro_art {
+	margin-top: 0%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: .8em;
+	overflow: hidden;
+}
+
+article {
+	margin-bottom: 2%;
+}
+
+article p {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+ #pro_art {
+	margin-bottom: 4%;
+	padding-bottom: 0%;
+	overflow: auto;
+}
+
+#register {
+	margin-bottom: 2%;
+}
+
+ol {
+    counter-reset: li;
+    list-style-type: none;
+	margin-left: 42%
+}
+
+ol li:before {
+    content: counter(li)'.';
+    counter-increment: li;
+    position: absolute;
+}
+
+ol li {
+	position: relative;
+	text-indent: -4%;
+	color: hsla(113,38%,39%,1.00);
+	text-shadow: 1px 1px hsla(0,0%,0%,1.00);
+    margin-right: 4%;
+    font-size: 1em;
+}
+
+#peewee_art ol li {
+	text-indent: -4%;
+	right: -12%;
+}
+
+#friday_art ol li {
+	text-indent: -4%;
+	right: -12%;
+}
+
+#pro_art ol li {
+	text-indent: -4%;
+	right: 6%;
+}
+
+blockquote {
+	max-width: 20%;
+	padding-left: 55%;
+	color: hsla(113,38%,39%,1.00);
+	text-shadow: 1px 1px hsla(0,0%,0%,1.00);
+	font-size: 1em;
+}
+/***************** Table & Form CSS *****************************/
+table {
+	border-spacing: 0px;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+th, td {
+	padding: 5px 30px 5px 10px;
+	border-spacing: 0px;
+	font-size: 90%;
+	margin: 0px;}
+th, td {
+	text-align: left;
+	background-color: hsla(95,35%,84%,1.00);
+	border-top: 1px solid hsla(22,46%,35%,1.00);
+	border-bottom: 1px solid hsla(22,46%,35%,1.00);
+	border-right: 1px solid hsla(22,46%,35%,1.00);
+	border-left: 1px solid hsla(22,46%,35%,1.00);
+}
+
+tr.head th {
+	color: #fff;
+	background-color: hsla(88,41%,64%,1.00);
+	border-bottom: 2px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-shadow: -1px -1px 1px #666666;
+	letter-spacing: 0.1em;}
+td {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 1px #ffffff;}
+tr.even td, tr.even th {
+	background-color: hsla(47,32%,91%,1.00);}
+tr.head th:first-child {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;}
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;}
+fieldset {
+	width: 600px;
+	margin-top: 0px;
+	margin-left: 2%;
+	padding-top: 0px;
+	border: 1px solid hsla(22,46%,35%,1.00);
+	border-radius: 15px solid hsla(22,46%,35%,1.00);
+	background-color: hsla(48,32%,91%,1.00);
+	line-height: 1.6em;}
+legend {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-style: italic;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: hsla(22,46%,35%,1.00);
+	Border-radius: 1px solid hsla(22,46%,35%,1.00)}
+input[type="text"] {
+	width: 300px;
+	border: 1px solid hsla(22,46%,35%,1.00);
+	padding: 2px;
+	outline: none;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+	
+input[type="text"]:focus,
+input[type="text"]:hover {
+	background-color: hsla(97,35%,84%,1.00);
+	border: 1px solid hsla(22,46%,35%,1.00);}
+input[type="submit"] {
+	border: 1px solid #000;
+	background-color: hsla(88,41%,64%,1.00);
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	}
+input[type="submit"]:hover {
+	border: 1px solid #000;
+	background-color: hsla(22,46%,35%,1.00);
+	color: #ffffff;
+	cursor: pointer;}
+.title {
+	float: left;
+	width: 160px;
+	clear: left;}
+.submit {
+	width: 310px;
+	padding-bottom: 4%;
+	text-align: right;}
+
+#schedule {
+	margin-top: 0px;
+}
+
+#pro_art {
+	margin-bottom: 0px;
+	padding-bottom: 4%;
+}
